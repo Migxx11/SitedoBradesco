@@ -1,0 +1,56 @@
+/*bradesco sans fonte*/
+@import url('https://fonts.cdnfonts.com/css/bradesco-sans');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(./);
+    background-color: rgb(238, 238, 238);
+    font-family: 'Bradesco Sans', sans-serif;
+    width: 100%;
+    height: 250vh;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.cardsum{
+    width: 340px;
+    height: 45%;
+    padding: 20px;
+    margin: 50px 0px 20px 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.cardsum h1{
+    padding-bottom: 20px;
+    padding-left: 8px;
+}
+.cardsum i{
+    font-size: 50px;
+    color: #e60935;
+    padding: 10px;
+}
+.cardsum:hover{
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+.opcoesum{
+    color: #e60935;
+    font-size: 16px;
+    border: 1px solid #e60935;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 4px;
+}
+.opcoesum:hover{
+    transition: 0.2s;
+    background-color: #e60935;
+    color: #FFFFFF;
+    cursor: pointer;
+}
