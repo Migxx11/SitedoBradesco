@@ -97,20 +97,15 @@ nav a:hover{
     color: #FFFFFF;
     cursor: pointer;
 }
-.titulo{
-    font-size: 36px;
-    margin-left: 2%;
-    text-decoration: underline #e60935 5px;
-}
 #main-instit{
     background-image: url(./);
     background-color: rgb(238, 238, 238);
     font-family: 'Bradesco Sans', sans-serif;
     width: 100%;
-    height: 150vh;
+    height: 80vh;
 }
 .cardsdois{
-    width: 290px;
+    width: 300px;
     height: 50%;
     padding: 20px;
     margin: 50px 0px 20px;
@@ -147,15 +142,29 @@ nav a:hover{
 footer{
     font-family: 'Bradesco Sans', sans-serif;
     width: 100%;
-    height: 50vh;
+}
+footer .selo{
+    margin: 60px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 footer img{
-    width: 120px;
+    width: 100px;
+}
+footer .navdebaixo{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px;
 }
 footer a{
     text-decoration: none;
     color: #e60935;
     font-weight: 700;
+    font-size: 15px;
+}
+footer .direitos{
+    margin: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
