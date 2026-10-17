@@ -77,7 +77,61 @@ h1 {
     padding: 50px 100px;
 }
 
-.texto-pequeno {
-    
+.parcerias-empresariais {
+font-size: 30px;
+margin-bottom: 20px;
+margin-top: 0;
+}
 
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 290px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card h3 {
+    padding: 20px 20px 10px;
+    font-size: 22px;
+}
+
+.card p {
+    padding: 0 20px;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
 }
