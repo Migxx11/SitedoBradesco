@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+header {
+background-color: #FFFFFF;
+width: 100%;
+position: fixed;
+}
+
 
 nav {
     font-family: 'Bradesco Sans', sans-serif;
@@ -81,6 +87,12 @@ h1 {
 font-size: 30px;
 margin-bottom: 20px;
 margin-top: 0;
+padding-bottom: 50px;
+margin-left: 20px;
+} 
+
+.parcerias-empresariais p {
+    font-size: 20px;
 }
 
 .cards {
@@ -89,6 +101,7 @@ margin-top: 0;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 
 .card {
@@ -134,4 +147,105 @@ margin-top: 0;
 .card a:hover {
     background-color: cornflowerblue;
     transition: 0.5s;
+}
+
+.botoes {
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+button {
+    padding: 15px 35px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn {
+    background-color: #e60935;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(175, 10, 10);
+    color: white;
+    transition: 0.5s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 7%;
+}
+
+.aplicativo {
+width: 55%;
+}
+
+.aplicativo h2 {
+    margin-bottom: 30px;
+}
+
+.aplicativo p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.img-especifica {
+    width: 80%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.osdois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google {
+    width: 200px;
+}
+.apple {
+    width: 195px;
+}
+
+footer {
+    font-family: 'Bradesco Sans', sans-serif;
+    width: 100%;
+}
+
+footer .selo{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 100px;
+}
+footer .navdebaixo{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px;
+}
+footer a{
+    text-decoration: none;
+    color: #e60935;
+    font-weight: 700;
+    font-size: 15px;
+}
+footer .direitos{
+    margin: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
