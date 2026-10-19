@@ -34,6 +34,7 @@ nav a:hover {
 .header-box-branco {
     background-color: #FFFFFF;
     border-radius: 5px;
+    border: 2px solid #FFFFFF;
     padding: 10px 20px;
     position: relative;
 }
@@ -45,6 +46,7 @@ nav a:hover {
 .header-box-vermelho {
     background-color: #e60935;
     border-radius: 5px;
+    border: 2px solid #e60935;
     padding: 10px 20px;
     position: relative;
 }
@@ -67,6 +69,10 @@ nav a:hover {
     background-repeat: no-repeat;
 }
 
+main {
+    font-family: 'Bradesco Sans', sans-serif;
+}
+
 h5 {
     color: white;
 }
@@ -79,7 +85,7 @@ h1 {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 28px;
     padding: 50px 100px;
 }
 
