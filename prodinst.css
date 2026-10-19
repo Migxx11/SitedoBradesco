@@ -9,6 +9,7 @@
 header{
     background-color: #FFFFFF;
     width: 100%;
+    height: 75px;
     position: fixed;
 }
 nav{
@@ -28,6 +29,7 @@ nav a:hover{
 .header-box-branco{
     background-color: #FFFFFF;
     border-radius: 5px;
+    border: 2px solid #FFFFFF;
     padding: 10px 20px;
     position: relative;
 }
@@ -43,18 +45,26 @@ nav a:hover{
 .header-box-vermelho{
     background-color: #e60935;
     border-radius: 5px;
+    border: 2px solid #e60935;
     padding: 10px 20px;
     position: relative;
 }
 .header-box i{
     padding: 5px;
 }
+.titulos{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 36px;
+}
+.titulos b{
+    color: #e60935;
+}
 #main-produtos{
-    background-image: url(./);
     background-color: rgb(238, 238, 238);
     font-family: 'Bradesco Sans', sans-serif;
     width: 100%;
-    height: 250vh;
+    height: 280vh;
 }
 .container{
     display: flex;
@@ -102,20 +112,41 @@ nav a:hover{
     background-color: rgb(238, 238, 238);
     font-family: 'Bradesco Sans', sans-serif;
     width: 100%;
-    height: 80vh;
+    height: 120vh;
 }
 .cardsdois{
     width: 300px;
     height: 50%;
     padding: 20px;
     margin: 50px 0px 20px;
-    background-color: #FFFFFF;
+    /* background-color: rgba(230, 9, 53,0.7); */
     border-radius: 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.cardsdois:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#bg-braseg{
+    background-image: url(./assets/card-bra-seguros.jpg);
+}
+#bg-prog{
+    background-image: url(./assets/card-prog.png);
+    background-size: cover;
+}
+#bg-inic{
+    background-image: url(./assets/bg-inic.jpg);
+    background-size: cover;
+}
+#bg-notivant{
+    background-image: url(./assets/card-vant.jpg);
+    background-size: cover;
+}
 .cardsdois h2{
-    padding-bottom: 20px;
+    padding-bottom: 250px;
     padding-left: 8px;
+    color: #e60935;
 }
 .cardsdois i{
     font-size: 50px;
@@ -126,6 +157,7 @@ nav a:hover{
     box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 .opcoesdois{
+    background-color: #FFFFFF;
     color: #e60935;
     font-size: 16px;
     border: 1px solid #e60935;
@@ -138,6 +170,12 @@ nav a:hover{
     background-color: #e60935;
     color: #FFFFFF;
     cursor: pointer;
+}
+#main-atend{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Bradesco Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
 }
 footer{
     font-family: 'Bradesco Sans', sans-serif;
